@@ -54,6 +54,15 @@ public class ReptileService {
     return reptileRepository.getReptilesBySpecies(species);
   }
 
+  /**Method to get reptiles by age
+   * 
+   * @param age The age threshold to search for.
+   * @return List of reptiles with age greater than or equal to the specified age
+   */
+  public Object getReptilesByAge(Double age) {
+    return reptileRepository.getReptilesByAge(age);
+  }
+
   /**
    * Method to add a new reptile
    *

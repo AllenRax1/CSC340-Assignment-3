@@ -64,6 +64,16 @@ public class ReptileRestController {
     return reptileService.getReptilesBySpecies(species);
   }
 
+  /**Endpoint to get reptiles by age
+   * 
+   * @param age The age threshold to search for.
+   * @return List of reptiles with age greater than or equal to the specified age
+   */
+  @GetMapping("/reptiles/age/{age}")
+  public Object getReptilesByAge(@PathVariable Double age) {
+    return reptileService.getReptilesByAge(age);
+  }
+
   /**
    * Endpoint to add a new reptile
    *

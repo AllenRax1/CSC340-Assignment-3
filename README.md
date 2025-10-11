@@ -213,3 +213,6 @@ Delete an existing Reptile.
   }
 ]
 ```
+
+### Video Link
+https://uncg-my.sharepoint.com/:v:/r/personal/aeorozcolop_uncg_edu/Documents/Assignment-3%20Video.mov?csf=1&web=1&e=fNmOHB
